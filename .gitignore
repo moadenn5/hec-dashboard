@@ -1,0 +1,17 @@
+# Python environment
+.venv/
+__pycache__/
+temp_env/
+build/
+dist/
+*.spec
+
+# Local and OS files
+.DS_Store
+Thumbs.db
+icon.ico
+
+# IDE configurations
+.claude/
+.idea/
+.vscode/
