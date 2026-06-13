@@ -810,13 +810,13 @@ function updateFinancialStats() {
     });
 
     const tuitionStatus = document.getElementById("tuition-status")?.value || "international";
-    let costPerCredit = 890;
+    let costPerCredit = 840;
     if (tuitionStatus === "quebec") {
         costPerCredit = 115;
     } else if (tuitionStatus === "canada") {
         costPerCredit = 315;
     } else if (tuitionStatus === "international") {
-        costPerCredit = 890;
+        costPerCredit = 840;
     }
 
     const currentCost = progressCredits * costPerCredit;
